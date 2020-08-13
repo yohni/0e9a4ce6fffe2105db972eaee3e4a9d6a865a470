@@ -65,7 +65,7 @@ const LocationsWrapper = styled.div`
   flex-direction: column;
   overflow-y: scroll;
   transition: all 0.5s;
-  transform: translateY(400px);
+  transform: translateY(100vh);
 
   ${({ isShow }) =>
     isShow &&
