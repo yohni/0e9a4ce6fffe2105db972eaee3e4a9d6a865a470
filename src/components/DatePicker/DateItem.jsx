@@ -15,7 +15,7 @@ const Wrapper = styled.button`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: ${(props) => props.theme.Boxes.sm};
+  margin: ${(props) => props.theme.Boxes.xs};
   font-size: ${(props) => props.theme.FontSizes.xs};
   color: ${(props) =>
     props.disabled

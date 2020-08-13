@@ -5,6 +5,7 @@ import Themes from "../../theme";
 const SlideWrapper = styled.div`
   overflow-y: hidden;
   background: #ffffff;
+  padding: 0 ${(props) => props.theme.Boxes.md};
 `;
 const Slider = styled.div`
   scroll-snap-type: x mandatory;
