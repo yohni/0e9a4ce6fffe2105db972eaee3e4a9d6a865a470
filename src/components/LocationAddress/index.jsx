@@ -11,18 +11,19 @@ const Wrapper = styled.div`
 const LocationWrapper = styled.div`
   display: flex;
   align-items: center;
+  cursor: pointer;
 `;
 
 const SendingAdd = styled.div`
   font-size: ${(props) => props.theme.FontSizes.md};
   font-weight: 600;
 `;
-const LocationAddress = () => {
+const LocationAddress = ({ handleClick }) => {
   return (
     <ThemeProvider theme={Themes}>
       <Wrapper>
         <div>ALAMAT PENGIRIMAN</div>
-        <LocationWrapper>
+        <LocationWrapper onClick={handleClick}>
           <SendingAdd>Tokopedia Tower</SendingAdd>
           <ArrowDownIcon color={Themes.Palletes.PinkPrimary} />
         </LocationWrapper>
