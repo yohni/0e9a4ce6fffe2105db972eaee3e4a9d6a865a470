@@ -1,4 +1,6 @@
 import moment from "moment";
+require("moment/locale/id");
+moment.locale("id");
 
 Date.prototype.addDays = function (days) {
   var dat = new Date(this.valueOf());
